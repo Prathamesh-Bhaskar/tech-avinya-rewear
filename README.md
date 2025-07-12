@@ -6,6 +6,9 @@
 - Ashitosh Katale - kataleashitosh123@gmail.com
 - Pradeep Misal - pradeepmisal698@gmail.com
 
+## Video Demo
+•⁠  ⁠https://drive.google.com/file/d/1lODtY-u0jKr4rm5glPldK-XCacP0fS01/view?usp=sharing
+
 ReWear is a sustainable fashion platform that empowers users to exchange gently used clothing through direct swaps or a points-based redemption system. The initiative aims to minimize textile waste and foster community-driven reuse of garments.
 
 ---
