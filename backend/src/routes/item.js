@@ -26,7 +26,13 @@ router.post('/upload', upload.array('images', 5), async (req, res) => {
     const uploadPromises = files.map(file => uploadToCloudinary(file.path));
     const results = await Promise.all(uploadPromises);
     // Remove local files after upload
-    files.forEach(file => fs.unlinkSync(file.path));
+    files.forEach(file => {
+      try {
+        fs.unlinkSync(file.path);
+      } catch (err) {
+        console.warn('Failed to delete file:', file.path, err.message);
+      }
+    });
     const urls = results.map(r => r.secure_url);
     res.json({ urls });
   } catch (err) {

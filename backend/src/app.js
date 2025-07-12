@@ -5,8 +5,9 @@ const app = express();
 // CORS setup
 app.use(cors({
   origin: [
-    'http://localhost:3000', // backend (API) direct calls
-    'http://localhost:5173', // Vite frontend
+    'http://localhost:5000', // backend (API) direct calls
+    'http://localhost:5173',
+    'http://localhost:3000', // Vite frontend
   ],
   credentials: true,
 }));
