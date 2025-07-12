@@ -1,0 +1,44 @@
+/* src/components/landing/ImpactMetrics.css */
+
+.impact {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.impact h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.impact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.impact-box {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 220px;
+  transition: transform 0.2s ease;
+}
+
+.impact-box:hover {
+  transform: translateY(-5px);
+}
+
+.impact-box h3 {
+  font-size: 2rem;
+  color: #0071dc;
+  margin-bottom: 0.5rem;
+}
+
+.impact-box p {
+  color: #555;
+  font-size: 1rem;
+}
