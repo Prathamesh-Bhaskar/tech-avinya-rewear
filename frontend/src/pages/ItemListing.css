@@ -1,0 +1,29 @@
+/* src/components/itemListing/ItemListing.css */
+
+.item-listing-page {
+  padding: 2rem;
+  padding-top: 100px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.item-layout {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Sidebar */
+.item-filters {
+  flex: 1;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+/* Product grid */
+.item-grid {
+  flex: 3;
+}
+

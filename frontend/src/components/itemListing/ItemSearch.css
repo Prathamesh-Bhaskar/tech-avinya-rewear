@@ -1,0 +1,14 @@
+
+/* Item Search */
+.item-search {
+  display: flex;
+  justify-content: center;
+}
+
+.item-search input {
+  width: 60%;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}

@@ -1,27 +1,32 @@
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
 
-// Components
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-// Pages
 import LandingPage from './pages/LandingPage';
+import ItemListing from './pages/ItemListing';
+import UserDashboard from './pages/UserDashboard';
+import ProductDetailPage from "./pages/ProductDetailPage";
+
+
+import './App.css';
 
 function App() {
   return (
     <Router>
-      <Header />
-
-      <main style={{ paddingTop: '80px', minHeight: '80vh' }}>
+      <div className="app-wrapper">
+        <Header />
         <Routes>
           <Route path="/" element={<LandingPage />} />
-        </Routes>
-      </main>
+          <Route path="/items" element={<ItemListing />} />
+          <Route path="/dashboard" element={<UserDashboard />} />
+          <Route path="/product/:id" element={<ProductDetailPage />} />
 
-      <Footer />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 }

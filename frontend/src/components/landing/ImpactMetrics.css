@@ -42,3 +42,11 @@
   color: #555;
   font-size: 1rem;
 }
+
+/* Item grid css */
+.item-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
