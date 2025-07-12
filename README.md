@@ -86,10 +86,10 @@ ReWear combines environmental consciousness with community collaboration to revo
 
 ---
 ## Team
-Prathmesh Bhaskar - prathameshbhaskar5@gmail.com
-Sandesh khilari - sndsh.khilari@gmail.com
-Ashitosh Katale - kataleashitosh123@gmail.com
-Pradeep Misal - pradeepmisal698@gmail.com
+- Prathmesh Bhaskar - prathameshbhaskar5@gmail.com
+- Sandesh khilari - sndsh.khilari@gmail.com
+- Ashitosh Katale - kataleashitosh123@gmail.com
+- Pradeep Misal - pradeepmisal698@gmail.com
 
 Made with ❤ for Odoo Hackathon ’25 by Team Tech Avinya
  
