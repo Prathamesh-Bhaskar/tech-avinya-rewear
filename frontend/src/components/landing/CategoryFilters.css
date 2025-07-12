@@ -1,0 +1,36 @@
+/* src/components/landing/CategoryFilters.css */
+
+.categories {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.categories h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.category-card {
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+  background-color: #f0f8ff;
+}

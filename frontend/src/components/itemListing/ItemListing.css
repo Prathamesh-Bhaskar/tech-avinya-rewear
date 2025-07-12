@@ -1,0 +1,89 @@
+/* src/components/itemListing/ItemListing.css */
+
+.item-listing-page {
+  padding: 2rem;
+  padding-top: 100px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.item-layout {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Sidebar */
+.item-filters {
+  flex: 1;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+/* Product grid */
+.item-grid {
+  flex: 3;
+}
+
+
+/* Item Search */
+.item-search {
+  display: flex;
+  justify-content: center;
+}
+
+.item-search input {
+  width: 60%;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* ItemFilter css */
+
+.filter-section {
+  margin-top: 1.2rem;
+}
+
+.filter-section label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+}
+
+.filter-section select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Item card css */
+.item-card {
+  display: flex;
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.item-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.item-details h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.item-details p {
+  color: #666;
+}

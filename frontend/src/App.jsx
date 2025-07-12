@@ -1,18 +1,27 @@
+// src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './pages/Login';
-import Register from './pages/Register';
 import './App.css';
+
+// Components
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+// Pages
+import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        {/* Add your landing/dashboard routes here */}
-        <Route path="/" element={<div style={{textAlign:'center',marginTop:'3rem'}}><h1>Welcome to ReWear</h1><a href="/login">Login</a> | <a href="/register">Register</a></div>} />
-      </Routes>
+      <Header />
+
+      <main style={{ paddingTop: '80px', minHeight: '80vh' }}>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+        </Routes>
+      </main>
+
+      <Footer />
     </Router>
   );
 }

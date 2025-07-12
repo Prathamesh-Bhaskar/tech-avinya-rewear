@@ -1,0 +1,33 @@
+/* src/components/landing/SearchCTA.css */
+
+.search-cta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+}
+
+.search-cta input {
+  padding: 0.75rem;
+  width: 260px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.search-cta button {
+  background-color: #ffc220;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #111;
+  transition: background-color 0.3s ease;
+}
+
+.search-cta button:hover {
+  background-color: #e6ae00;
+}

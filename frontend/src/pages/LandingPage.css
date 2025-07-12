@@ -1,0 +1,116 @@
+/* src/pages/LandingPage.css */
+
+.landing-page {
+  padding-top: 80px; /* header height */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #0071dc, #005cb9);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.search-cta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.search-cta input {
+  padding: 0.75rem;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.search-cta button {
+  background-color: #ffc220;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #111;
+}
+
+.search-cta button:hover {
+  background-color: #e6ae00;
+}
+
+/* Category Section */
+.categories {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.category-card {
+  background-color: white;
+  padding: 1.2rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+/* Impact Metrics Section */
+.impact {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.impact-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.impact-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 200px;
+}
+
+.impact-box h3 {
+  font-size: 2rem;
+  color: #0071dc;
+}
+
+.impact-box p {
+  font-size: 1rem;
+  color: #333;
+}
