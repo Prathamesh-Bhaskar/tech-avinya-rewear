@@ -86,4 +86,4 @@ ReWear combines environmental consciousness with community collaboration to revo
 
 ---
 
-Made with ❤ for Odoo Hackathon ’25 by Team Tech Avinya.
+Made with ❤ for Odoo Hackathon ’25 by Team Tech Avinya
